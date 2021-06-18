@@ -1,3 +1,8 @@
+@font-face {
+    font-family: musical;
+    src: url(./fonts/Delicate-9gP02.otf);
+  }
+
 html, body {
     height: 100%;
     min-height: 100%;
@@ -30,6 +35,7 @@ h1 {
     color: #56b475;
     -webkit-text-stroke: 1px black;
     font-size: 2em;
+    font-family: musical;
     /*
     text-shadow: #000 0px 0px 2px;
     -webkit-font-smoothing: antialiased;
