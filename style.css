@@ -1,5 +1,26 @@
 body {
-    background: url(./images/bananaBackground.jpeg) center no-repeat;
+  background: url(./images/bananaBackground.jpeg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   } 
+
+h1 {
+    font-size: 5em;
+    -webkit-text-stroke: 3px black;
+    color: #56b475;
+}
+
+#lyrics {
+    color: #56b475;
+    -webkit-text-stroke: 1px black;
+    font-size: 2em;
+    /*
+    text-shadow: #000 0px 0px 2px;
+    -webkit-font-smoothing: antialiased;
+    background: #56b475;
+    */
+}
+
+h2 {
+    font-size: 1.5em;
+}
