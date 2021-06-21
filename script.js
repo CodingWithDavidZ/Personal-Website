@@ -15,6 +15,4 @@ function pageVisitCounter(){
     .then(function(data) { counterElement.innerHTML = (data.value) }}
 }
 
-pageVisitCounter()
-
-counterElement= document.getElementsByClassName('count')[0]
+counterElement= document.getElementsByClassName('count')[0];
