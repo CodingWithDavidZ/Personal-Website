@@ -9,10 +9,7 @@
 //    alert ("Thank you for visiting my page!");
 //  }
 
-function pageVisitCounter(){
-    fetch('https://api.countapi.xyz/update/CodingWithDavidZ/JourneyOfUs/?amount=1')
-    .then(function(res) {res.json()})
-    .then(function(data) { counterElement.innerHTML = (data.value) }}
+function viewsCall(response){
+    document.getElementById('views').innerText = response.value;
 }
-
-counterElement= document.getElementsByClassName('count')[0];
+    
